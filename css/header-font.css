@@ -1,0 +1,68 @@
+/* Fonts */
+@import url("https://fonts.cdnfonts.com/css/new-super-mario-font-u");
+
+/* Header */
+li a {
+    font-family: 'New Super Mario Font U', 'Ubuntu', sans-serif;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #FFFD00;
+}
+
+.navbar-nav .nav-link.active {
+    color: #FFFD00;
+}
+
+/* Backgrounds */
+nav,
+footer {
+    background-image: url(../img/backgrounds/bg-black-2.png);
+    background-color: #1e1e1e;
+    background-size: 22px auto;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  color: #212529;
+}
+
+h5 {
+  font-family: "New Super Mario Font U", "Ubuntu", sans-serif;
+}
+
+/* Wave */
+.wave-black {
+  background-image: url(../img/waves/wave-black.svg);
+  height: 23px;
+  top: 0;
+  transform: translateY(-60%);
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 991px) {
+    .offcanvas {
+      background-image: url(../img/backgrounds/bg-black-2.png);
+      background-size: 22px auto;
+    }
+  
+    #home {
+      text-align: center;
+    }
+  
+    #home .btn {
+      margin: 12px 0;
+    }
+  }

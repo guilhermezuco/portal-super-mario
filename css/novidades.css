@@ -1,0 +1,26 @@
+#novidades {
+  background-image: url(../img/backgrounds/bg-mario.png),
+    linear-gradient(180deg, #e2101e 16%, #bb0b25 76%);
+  background-attachment: fixed;
+  position: relative;
+  overflow: hidden;
+}
+
+.principal-img {
+  border: 3px solid #fff;
+}
+
+#text-novidades {
+  background-image: radial-gradient(#efefef 14%, transparent 14%),
+    radial-gradient(#efefef 14%, transparent 14%);
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
+}
+
+/* Wave */
+.wave-red {
+  background-image: url(../img/waves/wave-red.svg);
+  height: 23px;
+  top: 0;
+  transform: translateY(-240%);
+}

@@ -1,0 +1,76 @@
+#personagens {
+  background-image: url(../img/backgrounds/bg-mario-2.png),
+    linear-gradient(180deg, #26cacf 36%, #2487c9 56%);
+  position: relative;
+  overflow: hidden;
+}
+
+#personagens h2 {
+  font-family: "New Super Mario Font U", "Ubuntu", sans-serif;
+  text-shadow: 2px 2px 2px #000, -2px 2px 2px #000, 2px -2px 2px #000,
+    -2px -2px 2px #000;
+}
+
+.personagens-pointer {
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.personagens-pointer:hover {
+  transform: translateY(-7px);
+  transition: 0.2s;
+}
+
+.h2-mario {
+  color: #e91a21;
+}
+
+.h2-luigi {
+  color: #0caf4b;
+}
+
+.h2-peach {
+  color: #f49ac1;
+}
+
+.h2-yoshi {
+  color: #6fba2c;
+}
+
+.h2-toad {
+  color: #034ea1;
+}
+
+.h2-bowser,
+.h2-bowser-jr {
+  color: #fcb813;
+}
+
+.h2-wario {
+  color: #ffdd00;
+}
+
+.h2-waluigi {
+  color: #5a3399;
+}
+
+.h2-daisy {
+  color: #f05922;
+}
+
+.h2-rosalina {
+  color: #8cd8cd;
+}
+
+.h2-dk {
+  color: #763d23;
+}
+
+/* Modal */
+.modal-content {
+  background-color: #ffffff;
+  background-image: radial-gradient(#efefef 14%, transparent 14%),
+    radial-gradient(#efefef 14%, transparent 14%);
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
+}

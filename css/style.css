@@ -1,0 +1,119 @@
+#home,
+#lancamento,
+#jogos-recentes {
+  background-image: url(../img/backgrounds/bg-mario.png),
+    linear-gradient(180deg, #e2101e 16%, #bb0b25 76%);
+  background-attachment: fixed;
+  position: relative;
+  overflow: hidden;
+}
+
+#novidades,
+#switch,
+#produtos {
+  background-image: url(../img/backgrounds/bg-mario-blue.png);
+  background-color: #0064c8;
+}
+
+/* Button */
+.btn-white {
+  box-shadow: 0 0 0 1px #fff;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 4px solid transparent;
+}
+
+.btn-white:hover {
+  box-shadow: 0 0 0 2px #d3d4d5;
+  background-color: #d3d4d5;
+  background-clip: padding-box;
+  border: 4px solid transparent;
+}
+
+.btn-light {
+  --bs-btn-active-border-color: transparent;
+}
+
+/* Cards */
+.card {
+  background-image: url(../img/backgrounds/bg-mario-black.png);
+  background-clip: padding-box;
+  border: 4px solid transparent;
+  transition: 0.2s;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+  transition: 0.2s;
+}
+
+.card:hover {
+  opacity: 0.8;
+  transition: 0.2s;
+  background-clip: padding-box;
+  border: 4px solid transparent;
+  box-shadow: 0 0 0 2px #fff;
+  transform: translateY(-7px);
+}
+
+/* Nintendo Switch */
+.img-switch {
+  background-clip: padding-box;
+  border: 4px solid transparent;
+  transition: 0.2s;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+  transition: 0.2s;
+}
+
+.img-switch:hover {
+  opacity: 0.7;
+  transition: 0.2s;
+  background-clip: padding-box;
+  border: 4px solid transparent;
+  box-shadow: 0 0 0 3px #fff;
+  transform: translateY(-7px);
+}
+
+/* Video */
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Wave */
+.wave-blue {
+  background-image: url(../img/waves/wave-blue.svg);
+  height: 23px;
+  top: 0;
+  transform: translateY(-60%);
+}
+
+/* Animation */
+@keyframes jumpAnimation {
+  0% {
+    transform: translateY(0);
+    /* Sem deslocamento vertical */
+  }
+
+  50% {
+    transform: translateY(-15px);
+    /* Deslocamento para cima */
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.mario-home {
+  animation: jumpAnimation 2s infinite;
+}

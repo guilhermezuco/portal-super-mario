@@ -1,0 +1,29 @@
+#jogos {
+  background-image: url(../img/backgrounds/bg-mario-2.png),
+    linear-gradient(180deg, #49db24 16%, #ebdd19 76%);
+  position: relative;
+  overflow: hidden;
+}
+
+h5 {
+  font-family: "New Super Mario Font U", "Ubuntu", sans-serif;
+}
+
+.card {
+  background-image: url(../img/backgrounds/bg-mario-black.png);
+  background-clip: padding-box;
+  border: 4px solid transparent;
+  transition: 0.2s;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+  transition: 0.2s;
+}
+
+.card:hover {
+  opacity: 0.8;
+  transition: 0.2s;
+  background-clip: padding-box;
+  border: 4px solid transparent;
+  box-shadow: 0 0 0 2px #fff;
+  transform: translateY(-7px);
+}

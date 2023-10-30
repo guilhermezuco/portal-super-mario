@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 23" width="32" height="23">
+	<title>wave-white</title>
+	<defs>
+		<image  width="32" height="23" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAXCAMAAABd273TAAAAAXNSR0IB2cksfwAAAE5QTFRFAGTIAGTIAGTIAGTIAGTIAGTIAGTIAGTIAGTIAGTIAGTIAGTIAGTIAGTIAGTIAGTIAGTIAGTIAGTIAGTIAGTIAGTIAGTIAGTIAGTIAGTIQextBwAAABp0Uk5T8ta3aRMA//h/B9Mk70r9gQaCUdftpYVqhoCIje6mAAAAjUlEQVR4nO2SRwLDIBADFxdhXIkNwfn/R1PoGz/Bc1zNaSUi0bRdf0nXNoIIH+Sg/mM1yG/2E4Bx4vk0+iQImJc6X2bUAtZN51g/VnABEHtQ9H7kayEAxj6dO60pb5VwxS0EgX+uxNjTEf99xndDvL1IbJd4/4G0jyikBXnywpLQq5eMcbnRLMQVs5W/AYLZEpyF3v96AAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+</svg>

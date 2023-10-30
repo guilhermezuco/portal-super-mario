@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/icon/m-mario.png" type="image/x-icon">
+    <title>Portal Super Mario - Personagens</title>
+
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/0eb1b399f9.js" crossorigin="anonymous"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/personagens.css">
+    <link rel="stylesheet" href="./css/header-font.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar-expand-lg navbar navbar-dark bg-dark fixed-top py-lg-3">
+            <div class="container-fluid">
+                <a class="navbar-brand d-lg-none ps-3" href="#"><img class="d-block" height="50"
+                        src="./img/header/mario-cap.png" alt="Logo"></a>
+                <button class="border-0 p-0 shadow-none navbar-toggler pe-3" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon fs-2"></span>
+                </button>
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                    aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header px-4">
+                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"><img class="d-block" height="50"
+                                src="./img/header/mario-cap.png" alt="Logo"></h5>
+                        <button type="button" class="shadow-none btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body text-center">
+                        <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                            <li class="nav-item mx-3">
+                                <a class="nav-link fs-5" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item mx-3">
+                                <a class="nav-link fs-5" href="sobre.html">Sobre</a>
+                            </li>
+                            <li class="nav-item mx-3">
+                                <a class="nav-link fs-5" href="noticias.html">Notícias</a>
+                            </li>
+                            <li class="nav-item mx-3">
+                                <a class="nav-link active fs-5" href="personagens.html">Personagens</a>
+                            </li>
+                            <li class="nav-item mx-3">
+                                <a class="nav-link fs-5" href="jogos.html">Jogos</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="personagens" class="py-5">
+        <h1 class="fw-medium text-center text-light display-1 py-5 mb-0">Personagens</h1>
+        <div class="container">
+
+            <div class="row g-4 row-cols-1 row-cols-lg-3">
+                <div class="col-md-6">
+                    <div class="personagens-pointer text-center align-items-center justify-content-center fs-2 mb-3"
+                        data-bs-toggle="modal" data-bs-target="#modal-mario">
+                        <img height="250" src="./img/personagens/mario-2d-render.svg" alt="Imagem Mario">
+                        <h2 class="fs-4 h2-mario">Mario</h2>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="personagens-pointer text-center align-items-center justify-content-center fs-2 mb-3"
+                        data-bs-toggle="modal" data-bs-target="#modal-luigi">
+                        <img height="250" src="./img/personagens/luigi-2d-render.svg" alt="Imagem Luigi">
+                        <h2 class="fs-4 h2-luigi">Luigi</h2>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="personagens-pointer text-center align-items-center justify-content-center fs-2 mb-3"
+                        data-bs-toggle="modal" data-bs-target="#modal-peach">
+                        <img height="250" src="./img/personagens/peach-2d-render.svg" alt="Imagem Peach">
+                        <h2 class="fs-4 h2-peach">Peach</h2>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="personagens-pointer text-center align-items-center justify-content-center fs-2 mb-3"
+                        data-bs-toggle="modal" data-bs-target="#modal-yoshi">
+                        <img height="250" src="./img/personagens/yoshi-2d-render.svg" alt="Imagem Yoshi">
+                        <h2 class="fs-4 h2-yoshi">Yoshi</h2>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="personagens-pointer text-center align-items-center justify-content-center fs-2 mb-3"
+                        data-bs-toggle="modal" data-bs-target="#modal-toad">
+                        <img height="250" src="./img/personagens/toad-2d-render.svg" alt="Imagem Toad">
+                        <h2 class="fs-4 h2-toad">Toad</h2>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="personagens-pointer text-center align-items-center justify-content-center fs-2 mb-3"
+                        data-bs-toggle="modal" data-bs-target="#modal-bowser">
+                        <img height="250" src="./img/personagens/bowser-2d-render.svg" alt="Imagem Bowser">
+                        <h2 class="fs-4 h2-bowser">Bowser</h2>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="personagens-pointer text-center align-items-center justify-content-center fs-2 mb-3"
+                        data-bs-toggle="modal" data-bs-target="#modal-wario">
+                        <img height="250" src="./img/personagens/wario-2d-render.svg" alt="Imagem Wario">
+                        <h2 class="fs-4 h2-wario">Wario</h2>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="personagens-pointer text-center align-items-center justify-content-center fs-2 mb-3"
+                        data-bs-toggle="modal" data-bs-target="#modal-waluigi">
+                        <img height="250" src="./img/personagens/waluigi-2d-render.svg" alt="Imagem Waluigi">
+                        <h2 class="fs-4 h2-waluigi">Waluigi</h2>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="personagens-pointer text-center align-items-center justify-content-center fs-2 mb-3"
+                        data-bs-toggle="modal" data-bs-target="#modal-daisy">
+                        <img height="250" src="./img/personagens/daisy-2d-render.svg" alt="Imagem Daisy">
+                        <h2 class="fs-4 h2-daisy">Daisy</h2>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="personagens-pointer text-center align-items-center justify-content-center fs-2 mb-3"
+                        data-bs-toggle="modal" data-bs-target="#modal-bowser-jr">
+                        <img height="250" src="./img/personagens/bowser-jr-2d-render.svg" alt="Imagem Bowser Jr.">
+                        <h2 class="fs-4 h2-bowser-jr">Bowser Jr.</h2>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="personagens-pointer text-center align-items-center justify-content-center fs-2 mb-3"
+                        data-bs-toggle="modal" data-bs-target="#modal-rosalina">
+                        <img height="250" src="./img/personagens/rosalina-2d-render.svg" alt="Imagem Rosalina">
+                        <h2 class="fs-4 h2-rosalina">Rosalina</h2>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="personagens-pointer text-center align-items-center justify-content-center fs-2 mb-3"
+                        data-bs-toggle="modal" data-bs-target="#modal-dk">
+                        <img height="250" src="./img/personagens/dk-2d-render.svg" alt="Imagem Donkey Kong">
+                        <h2 class="fs-4 h2-dk">Donkey Kong</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center text-white">
+        <div class="wave-black"></div>
+        <section class="container p-4 pb-0">
+          <a class="text-white px-3" href="https://www.instagram.com/nintendoamerica/" target="_blank"><i
+              class="icon fa-brands fa-instagram fa-2x"></i></a>
+          <a class="text-white px-3" href="https://twitter.com/NintendoAmerica" target="_blank"><i
+              class="icon fa-brands fa-twitter fa-2x"></i></a>
+          <a class="text-white px-3" href="https://www.youtube.com/@NintendoAmerica" target="_blank"><i
+              class="icon fa-brands fa-youtube fa-2x"></i></a>
+        </section>
+        <div class="p-4">
+          <a target="_blank" href="https://www.nintendo.com/privacy-policy/">Políticas</a> <span>|</span> <a target="_blank"
+            href="https://www.nintendo.com/terms-of-use/">Termos de
+            uso</a> <span>|</span> <a target="_blank" href="https://careers.nintendo.com/">Carreiras</a> <br>
+    
+          <p class="mt-4">Copyright <i class="bi bi-c-circle"></i> Super Mario - Guilherme Zuco</p>
+        </div>
+      </footer>
+
+    <!-- Modal Mario -->
+    <div class="modal fade text-black" id="modal-mario" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title fw-bold fs-4" id="exampleModalLabel">Mario
+                        <img class="ms-1" src="./img/personagens/mario-M.svg" alt="Logo Mario">
+                    </h3>
+                    <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="fw-medium">Mario é o herói principal do Reino Cogumelo, e está sempre espalhando amor e
+                        alegria com sua personalidade bondosa.</p>
+
+                    <p class="fw-medium">Ele adora praticar esportes. Apesar de sua profissão de encanador, ele é
+                        verdadeiramente um "faz-tudo".</p>
+
+                    <p class="fw-medium">Com ajuda de seus amigos, ele usa sua bravura e super poderes para enfrentar
+                        seu arquirrival, Bowser.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Luigi -->
+    <div class="modal fade text-black" id="modal-luigi" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title fw-bold fs-4" id="exampleModalLabel">Luigi
+                        <img class="ms-1" src="./img/personagens/luigi-L.svg" alt="Logo Luigi">
+
+                    </h3>
+                    <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="fw-medium">Luigi é um grande encanador e herói do Reino Cogumelo, é identificável por seu
+                        chapéu e camisa verde.</p>
+
+                    <p class="fw-medium">Luigi é um homem gentil, mas pode ficar um pouco nervoso, pois tem muito medo
+                        de fantasmas.</p>
+
+                    <p class="fw-medium">Luigi é notavelmente mais alto e possui a capacidade de saltar mais alto do que
+                        seu irmão Mario.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Peach -->
+    <div class="modal fade text-black" id="modal-peach" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title fw-bold fs-4" id="exampleModalLabel">Peach
+                        <img class="ms-1" src="./img/personagens/peach-crown.svg" alt="Logo Peach">
+                    </h3>
+                    <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="fw-medium">Peach é a princesa do Reino Cogumelo, é conhecida por sua extrema gentileza e
+                        por usar um vestido rosa.</p>
+
+                    <p class="fw-medium">Ela demonstra interesse em uma ampla gama de esportes e também tem uma paixão
+                        pela culinária.</p>
+
+                    <p class="fw-medium">Princesa Peach e Mario são amigos íntimos, prontos para se apoiar sempre que
+                        necessário.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Yoshi -->
+    <div class="modal fade text-black" id="modal-yoshi" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title fw-bold fs-4" id="exampleModalLabel">Yoshi
+                        <img class="ms-1" src="./img/personagens/yoshi-egg.svg" alt="Logo Yoshi">
+                    </h3>
+                    <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="fw-medium">Yoshi um dinossauro verde da Yoshi's Island. Ele é o fiel companheiro de Mario.
+                    </p>
+
+                    <p class="fw-medium">Ele é conhecido por ser amigável e despreocupado, e também gosta de participar
+                        de várias aventuras com Mario.</p>
+
+                    <p class="fw-medium">Ele usa sua língua para comer frutas e engolir inimigos, transformando-os em
+                        ovos que ele pode lançar como projéteis.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Toad -->
+    <div class="modal fade text-black" id="modal-toad" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title fw-bold fs-4" id="exampleModalLabel">Toad
+                        <img class="ms-1" src="./img/personagens/toad-logo.svg" alt="Logo Toad">
+                    </h3>
+                    <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="fw-medium">Toad é um habitante nativo do Reino Cogumelo e presta serviços em prol da
+                        Princesa Peach.</p>
+
+                    <p class="fw-medium">Embora sua espécie apresente uma variedade de cores na cabeça, Toad é
+                        distinguido por suas manchas vermelhas.
+                    </p>
+
+                    <p class="fw-medium">Ele é notável por sua alegria contagiante e lealdade. Sempre está disposto em
+                        ajudar Mario e Luigi em suas missões.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Bowser -->
+    <div class="modal fade text-black" id="modal-bowser" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title fw-bold fs-4" id="exampleModalLabel">Bowser
+                        <img class="ms-1" src="./img/personagens/bowser-logo.svg" alt="Logo Bowser">
+                    </h3>
+                    <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="fw-medium">Bowser, também conhecido como o Rei dos Koopas, é o arquirrival de Mario e
+                        sempre causa problemas.</p>
+
+                    <p class="fw-medium">Ele lidera um vasto exército de subordinados, incluindo Koopas, Goombas, Bullet
+                        Bills e Shy Guys.</p>
+
+                    <p class="fw-medium">Bowser é um adversário poderoso, possuindo uma força avassaladora e a
+                        habilidade de lançar chamas.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Wario -->
+    <div class="modal fade text-black" id="modal-wario" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title fw-bold fs-4" id="exampleModalLabel">Wario
+                        <img class="ms-1" src="./img/personagens/wario-W.svg" alt="Logo Wario">
+                    </h3>
+                    <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="fw-medium">Wario é amigo e rival de Mario, é conhecido por seu traje roxo, chapéu amarelo
+                        e bigode em zigue-zague.</p>
+
+                    <p class="fw-medium">Sua personalidade é notável por ser impulsiva e ele raramente se preocupa com
+                        detalhes insignificantes.</p>
+
+                    <p class="fw-medium">Além disso, Wario gosta de comer alho e é obcecado por ganhar dinheiro.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Waluigi -->
+    <div class="modal fade text-black" id="modal-waluigi" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title fw-bold fs-4" id="exampleModalLabel">Waluigi
+                        <img class="ms-1" src="./img/personagens/waluigi-L.svg" alt="Logo Waluigi">
+                    </h3>
+                    <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="fw-medium">Waluigi é um parceiro e aliado de Wario, considerando-se o rival autoimposto de
+                        Luigi. </p>
+
+                    <p class="fw-medium">Ele está disposto a dedicar grande esforço para superar Mario e Luigi, muitas
+                        vezes apenas para provocá-los.</p>
+
+                    <p class="fw-medium">Sua vantagem nos esportes vem de seus membros longos, proporcionando-lhe uma
+                        vantagem competitiva.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Daisy -->
+    <div class="modal fade text-black" id="modal-daisy" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title fw-bold fs-4" id="exampleModalLabel">Daisy
+                        <img class="ms-1" src="./img/personagens/daisy-logo.svg" alt="Logo Daisy">
+                    </h3>
+                    <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="fw-medium">Daisy é a princesa de Sarasaland, seu visual icônico inclui um vestido amarelo
+                        e acessórios florais.</p>
+
+                    <p class="fw-medium">Ela é conhecida por sua personalidade alegre, cheia de energia e uma leve
+                        inclinação para a diversão.</p>
+
+                    <p class="fw-medium">Daisy ama praticar esportes e adora participar de diversas atividades
+                        esportivas ao lado de Mario e seus amigos.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Bowser Jr. -->
+    <div class="modal fade text-black" id="modal-bowser-jr" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title fw-bold fs-4" id="exampleModalLabel">Bowser Jr.
+                        <img class="ms-1" src="./img/personagens/bowser-jr-logo.svg" alt="Logo Bowser Jr.">
+                    </h3>
+                    <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="fw-medium">Bowser Jr. é o único filho de Bowser, o Rei dos Koopas. Ele usa uma máscara com
+                        uma boca desenhada.</p>
+
+                    <p class="fw-medium">Ele é pequeno, mas herda uma grande dose de força e determinação de seu pai.
+                    </p>
+
+                    <p class="fw-medium">Ele reconhece que às vezes causa complicações e pode ser um tanto egocêntrico.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Rosalina -->
+    <div class="modal fade text-black" id="modal-rosalina" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title fw-bold fs-4" id="exampleModalLabel">Rosalina
+                        <img class="ms-1" src="./img/personagens/luminha.svg" alt="Logo Rosalina">
+                    </h3>
+                    <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="fw-medium">Rosalina é uma mulher misteriosa que viaja pelo espaço com sua família de
+                        criaturas estelares chamadas Lumas.</p>
+
+                    <p class="fw-medium">Sua missão é observar e proteger o cosmos, ela também é mãe adotiva das Lumas e
+                        comanda o Observatório Cometa.</p>
+
+                    <p class="fw-medium">Embora sua casa esteja nas estrelas, ocasionalmente se junta a Mario e seus
+                        amigos em suas aventuras.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal DK -->
+    <div class="modal fade text-black" id="modal-dk" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title fw-bold fs-4" id="exampleModalLabel">Donkey Kong
+                        <img class="ms-1" src="./img/personagens/dk-logo.svg" alt="Logo Donkey Kong">
+                    </h3>
+                    <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="fw-medium">Donkey Kong é conhecido por sua chamativa gravata vermelha com suas iniciais.
+                    </p>
+
+                    <p class="fw-medium">Ele pode executar ataques poderosos, como arremessar barris como projéteis.
+                        Além disso, ele é um
+                        excelente saltador.</p>
+
+                    <p class="fw-medium">Sua paixão por bananas é inegável, ele tem seu próprio estoque em sua casa na
+                        árvore.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
